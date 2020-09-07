@@ -1,0 +1,450 @@
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap*/
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  margin-bottom: 0em;
+  margin-top: 2em;
+}
+input {
+  margin-right: 0em;
+  right: 40px;
+
+  display: inline-block;
+  position: relative;
+}
+
+.button {
+  position: inherit;
+}
+
+.header {
+  margin: auto;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: gray;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-bottom: 0.1em;
+  font-size: 10px;
+}
+
+.header img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 2em;
+}
+
+.header form {
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+
+.card p {
+  font-size: 2.4rem;
+  padding: 0.6em;
+  display: flex;
+  border: 1px solid red;
+  margin-bottom: 1em;
+}
+
+.card {
+  margin: 1em;
+  text-align: center;
+}
+
+.gamertag {
+  margin-right: 3em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  font-size: 11px;
+  background-color: black;
+  margin-top: 1em;
+  font-size: 11px;
+}
+
+.footer p {
+  margin: auto;
+  width: 30%;
+  color: whitesmoke;
+}
+
+.container {
+  position: relative;
+  top: 200px;
+}
+
+.loading {
+  position: relative;
+  top: 250px;
+  color: darkorange;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  button {
+    display: block;
+  }
+
+  form {
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  input {
+    margin-right: 0em;
+    position: initial;
+  }
+
+  .header {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gray;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 0.1em;
+    font-size: initial;
+  }
+
+  .header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 2em;
+  }
+
+  .header form {
+    position: relative;
+    top: 55px;
+    left: 31px;
+  }
+
+  .card p {
+    font-size: 2.4rem;
+    padding: 0.6em;
+    display: flex;
+    border: 1px solid red;
+    margin-bottom: 1em;
+  }
+
+  .card {
+    margin: 1em;
+  }
+
+  .gamertag {
+    margin-right: 0em;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+
+    background-color: black;
+    margin-top: 1em;
+    font-size: initial;
+  }
+
+  .footer p {
+    margin: auto;
+    width: 30%;
+    color: whitesmoke;
+  }
+
+  .container {
+    position: relative;
+    top: 200px;
+  }
+
+  .loading {
+    position: relative;
+    top: 250px;
+    color: darkorange;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  button {
+    display: initial;
+  }
+
+  form {
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  input {
+    margin-right: 1em;
+    position: initial;
+  }
+
+  .header {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gray;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 0.1em;
+    font-size: initial;
+  }
+
+  .header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 2em;
+  }
+
+  .header form {
+    position: relative;
+    top: 55px;
+    left: 85px;
+  }
+
+  .card p {
+    font-size: 2.4rem;
+    padding: 0.6em;
+    display: flex;
+    border: 1px solid red;
+    margin-bottom: 1em;
+  }
+
+  .card {
+    margin: 1em;
+  }
+
+  .gamertag {
+    margin-left: -3em;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+
+    background-color: black;
+    margin-top: 1em;
+    font-size: initial;
+  }
+
+  .footer p {
+    margin: auto;
+    width: 30%;
+    color: whitesmoke;
+  }
+
+  .container {
+    position: relative;
+    top: 200px;
+  }
+
+  .loading {
+    position: relative;
+    top: 250px;
+    color: darkorange;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  button {
+    display: initial;
+  }
+
+  form {
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  input {
+    margin-right: 1em;
+    position: initial;
+  }
+
+  .header {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gray;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 0.1em;
+    font-size: initial;
+  }
+
+  .header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 2em;
+  }
+
+  .header form {
+    position: relative;
+    top: 55px;
+    left: 100px;
+  }
+
+  .card p {
+    font-size: 2.4rem;
+    padding: 0.6em;
+    display: flex;
+    border: 1px solid red;
+    margin-bottom: 1em;
+  }
+
+  .card {
+    margin: 1em;
+  }
+
+  .gamertag {
+    margin-left: 10em;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+
+    background-color: black;
+    margin-top: 1em;
+    font-size: initial;
+  }
+
+  .footer p {
+    margin: auto;
+    width: 30%;
+    color: whitesmoke;
+  }
+
+  .container {
+    position: relative;
+    top: 200px;
+  }
+
+  .loading {
+    position: relative;
+    top: 250px;
+    color: darkorange;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  button {
+    display: initial;
+  }
+
+  form {
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  input {
+    margin-right: 1em;
+    position: initial;
+  }
+
+  .header {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gray;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 0.1em;
+    font-size: initial;
+  }
+
+  .header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 2em;
+  }
+
+  .header form {
+    position: relative;
+    top: 55px;
+    left: 190px;
+  }
+
+  .card p {
+    font-size: 2.4rem;
+    padding: 0.6em;
+    display: flex;
+    border: 1px solid orange;
+    margin-bottom: 1em;
+  }
+
+  .card {
+    margin: 1em;
+    background-color: rgba(47, 53, 42, 0.9);
+    color: burlywood;
+  }
+
+  .gamertag {
+    margin-left: 20em;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+
+    background-color: black;
+    margin-top: 1em;
+    font-size: 13px;
+  }
+
+  .footer p {
+    margin: auto;
+    width: 30%;
+    color: whitesmoke;
+  }
+
+  .container {
+    position: relative;
+    top: 150px;
+  }
+
+  .loading {
+    position: absolute;
+    top: 250px;
+    left: 4em;
+    color: darkorange;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 90%;
+    height: 40%;
+  }
+
+  .loading img {
+    float: right;
+    right: 3em;
+    top: 21px;
+    position: relative;
+  }
+
+  .loading h1 {
+    position: relative;
+    bottom: -2em;
+    left: 1em;
+    float: left;
+  }
+}
