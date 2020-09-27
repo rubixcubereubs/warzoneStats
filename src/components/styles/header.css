@@ -185,7 +185,9 @@ input {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   button {
-    display: initial;
+    /*display: initial;*/
+    position: relative;
+    left: 0vw;
   }
 
   form {
@@ -271,7 +273,9 @@ input {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   button {
-    display: initial;
+    /*display: initial;*/
+    position: relative;
+    left: 0vw;
   }
 
   form {
@@ -356,13 +360,21 @@ input {
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
   button {
-    display: initial;
+    /*display: initial;*/
+    position: relative;
+    left: 0vw;
   }
 
   form {
     margin-bottom: 2em;
     margin-top: 2em;
   }
+
+  form button {
+    position: relative;
+    left: 0vw;
+  }
+
   input {
     margin-right: 1em;
     position: initial;
