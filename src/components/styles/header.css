@@ -11,7 +11,7 @@ form {
 input {
   margin-right: 0em;
   right: 40px;
-
+  margin-bottom: 1vh;
   display: inline-block;
   position: relative;
 }
@@ -54,7 +54,7 @@ input {
   font-size: 2.4rem;
   padding: 0.6em;
   display: flex;
-  border: 1px solid red;
+  border: 1px solid orange;
   margin-bottom: 1em;
 }
 
@@ -101,6 +101,7 @@ input {
 @media (min-width: 576px) {
   button {
     display: block;
+    margin-right: 1vw;
   }
 
   form {
@@ -141,7 +142,7 @@ input {
     font-size: 2.4rem;
     padding: 0.6em;
     display: flex;
-    border: 1px solid red;
+    border: 1px solid orange;
     margin-bottom: 1em;
   }
 
@@ -228,7 +229,7 @@ input {
     font-size: 2.4rem;
     padding: 0.6em;
     display: flex;
-    border: 1px solid red;
+    border: 1px solid orange;
     margin-bottom: 1em;
   }
 
@@ -249,7 +250,7 @@ input {
     background-color: black;
     margin-top: 1em;
     font-size: 20px;
-    height: 18vh;
+    height: 15vh;
   }
 
   .footer p {
@@ -316,7 +317,7 @@ input {
     font-size: 2.4rem;
     padding: 0.6em;
     display: flex;
-    border: 1px solid red;
+    border: 1px solid orange;
     margin-bottom: 1em;
   }
 
@@ -432,6 +433,7 @@ input {
     background-color: black;
     margin-top: 1em;
     font-size: 13px;
+    height: 15vh;
   }
 
   .footer p {
